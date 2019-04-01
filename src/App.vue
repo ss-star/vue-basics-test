@@ -3,7 +3,11 @@
     <img src="./assets/logo.png">
     <!-- <HelloWorld/> -->
     <!-- <Events /> -->
-    <Formdata />
+    <!-- <Formdata /> -->
+    <!-- <first /> -->
+    <!-- <parent /> -->
+    <!-- <keep /> -->
+     <amin /> 
   </div>
 </template>
 
@@ -11,13 +15,21 @@
 import HelloWorld from './components/HelloWorld'
 import Events from './Ement'
 import Formdata from './components/form'
+import first from './components/first'
+import parent from './components/sonparent/one'
+import keep from './components/comkeep/keep'
+import amin from './components/comkeep/amin/amin'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Events,
-    Formdata
+    Formdata,
+    first,
+    parent,
+    keep,
+    amin
   }
 }
 </script>

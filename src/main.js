@@ -5,6 +5,12 @@ import App from './App'
 
 Vue.config.productionTip = false
 
+//定义全局指令
+Vue.directive("fonce",{
+  inserted:function(el){
+el.focus()
+  }
+})
 /* eslint-disable no-new */
 new Vue({
   el: '#app',          //绑定一个元素
